@@ -16,19 +16,19 @@
     <link rel="stylesheet" href="css\all.min.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body>
+  <body class="dark:bg-[#0C104A]">
     <nav
-      class="flex flex-col sticky top-0 justify-center items-center bg-white mx-auto pt-1.5 shadow-xl sm:w-full sm:flex-row sm:justify-around z-50"
+      class="flex flex-col sticky top-0 justify-center items-center bg-white mx-auto pt-1.5 shadow-xl md:w-full md:flex-row md:justify-around z-50 dark:bg-[#0C104A] dark:text-white"
     >
       <img src="assets/images/logo.png" alt="top sport logo" class="w-29" />
       <ul
-        class="flex space-x-8 text-sm items-center p-4 sm:space-x-12 sm:text-lg"
+        class="flex space-x-8 text-sm items-center p-4 md:space-x-12 md:text-lg"
       >
         <a href=""><li class="hover:text-blue-700">Acceuil</li></a>
-        <a href=""><li class="hover:text-blue-700">Actiivités</li></a>
+        <a href=""><li class="hover:text-blue-700">Activités</li></a>
         <a href=""><li class="hover:text-blue-700">à propos</li></a>
         <button
-          class="border-2 bg-blue-600 text-white rounded-xl py-2 px-4 cursor-pointer"
+          class="border-2 bg-blue-600 text-white rounded-xl py-2 px-4 cursor-pointer animate-bounce md:hover:bg-blue-900 md:duration-500"
         >
           <i class="fa-brands fa-whatsapp fontLarger text-xl"></i>
           +212 5-67-38-92-90
@@ -36,40 +36,46 @@
       </ul>
     </nav>
 
-    <section>
-      <div
-        class="flex flex-col-reverse justify-center w-11/12 mx-auto sm:flex-row sm:mt-14"
-      >
-        <div class="mt-15">
-          <h2 class="font-bold text-left mb-5 sm:text-4xl">
-            DEPASSE TES LIMITES
-          </h2>
-          <p>
-            Rejoins l'élite. Entrainement de precision, discipline martiale et
-            conditionnement phisique de haut niveau à Marrakech
-          </p>
-          <button
-            class="mt-11 p-3 bg-blue-600 text-white font-bold cursor-pointer rounded-2xl sm:p-4"
-          >
-            voir plus
-          </button>
+    <section
+      style="background-image: url(&quot;assets/images/heroSection.jpg&quot;)"
+      class="bg-cover md:h-110"
+    >
+      <div class="bg-black/60 md:h-110">
+        <div
+          class="flex flex-col-reverse justify-center w-11/12 mx-auto gap-3 sm:flex-row sm:py-6"
+        >
+          <div class="py-4.5">
+            <h2
+              class="font-bold text-left mb-5 text-4xl text-white md:mt-15 md:text-5xl"
+            >
+              DEPASSE TES LIMITES
+            </h2>
+            <p class="text-white font-bold md:text-2xl">
+              Rejoins l'élite. Entrainement de precision, discipline martiale et
+              conditionnement phisique de haut niveau à Marrakech
+            </p>
+            <button
+              class="mt-11 p-3 bg-blue-600 text-white font-bold cursor-pointer rounded-2xl sm:p-4 md:text-2xl md:p-5 md:hover:bg-blue-900 md:duration-500"
+            >
+              voir plus
+            </button>
+          </div>
         </div>
-        <img
-          src="assets/images/heroSection.jpg"
-          alt="team"
-          class="w-full mt-2 rounded-2xl sm:w-1/2"
-        />
       </div>
     </section>
-    <section class="h-28 flex justify-between items-center mt-18">
+    <section
+      class="w-full h-20 flex justify-between items-center mt-18 md:h-24 md:justify-around md:shadow-xl md:shadow-blue-600"
+    >
       <img src="assets/images/troaphy.png" alt="" class="h-full" />
       <img src="assets/images/boxing.png" alt="" class="h-full" />
-      <img src="assets/images/olympics.jfif" alt="" class="h-full" />
+      <img src="assets/images/olympics.png" alt="" class="h-full" />
       <img src="assets/images/medails.png" alt="" class="h-full" />
       <img src="assets/images/karateLeague.png" alt="" class="h-full" />
     </section>
 
-    <div class="w-11/12 h-14 pt-3 mx-auto mt-15 bg-blue-600 rounded-t-2xl">
+    <div
+      class="w-11/12 h-14 pt-3 mx-auto mt-15 bg-blue-600 rounded-t-2xl dark:bg-blue-900"
+    >
       <h2 class="text-2xl text-white ml-4">
         <i class="fa-solid fa-dumbbell mr-3"></i>
         Activités
@@ -78,45 +84,53 @@
     <section
       class="flex flex-col text-center mx-auto items-center mt-10 sm:flex-row sm:gap-7 sm:justify-around sm:w-11/12"
     >
-      <div class="mb-3.5 w-11/12 transition duration-1000 hover:scale-110">
+      <div
+        class="mb-3.5 w-11/12 sm:transition sm:duration-1000 sm:hover:scale-110"
+      >
         <a href=""
           ><img src="assets/images/karate.jpg" alt="" class="rounded-2xl"
         /></a>
-        <div class="mt-3">
+        <div class="mt-3 dark:text-white">
           <h2><strong> KARATE </strong></h2>
           <p>cliquer sur la photos pour plus de détails</p>
         </div>
       </div>
-      <div class="mb-3.5 w-11/12 transition duration-1000 hover:scale-110">
+      <div
+        class="mb-3.5 w-11/12 sm:transition sm:duration-1000 sm:hover:scale-110"
+      >
         <a href="">
           <img src="assets/images/fullContact.jpg" alt="" class="rounded-2xl"
         /></a>
-        <div class="mt-3">
+        <div class="mt-3 dark:text-white">
           <h2><strong> FULL CONTACT </strong></h2>
           <p>cliquer sur la photos pour plus de détails</p>
         </div>
       </div>
-      <div class="mb-3.5 w-11/12 transition duration-1000 hover:scale-110">
+      <div
+        class="mb-3.5 w-11/12 sm:transition sm:duration-1000 sm:hover:scale-110"
+      >
         <a href=""
           ><img src="assets/images/aerobic.jpg" alt="" class="rounded-2xl"
         /></a>
-        <div class="mt-3">
+        <div class="mt-3 dark:text-white">
           <h2><strong> AEROBIC </strong></h2>
           <p>cliquer sur la photos pour plus de détails</p>
         </div>
       </div>
     </section>
 
-    <div class="w-11/12 h-14 pt-3 mx-auto mt-15 bg-blue-600 rounded-t-2xl">
+    <div
+      class="w-11/12 h-14 pt-3 mx-auto mt-15 bg-blue-600 rounded-t-2xl dark:bg-blue-900"
+    >
       <h2 class="text-2xl text-white ml-4">
         <i class="fa-brands fa-readme mr-3"></i>
         à propos de Top Sport
       </h2>
     </div>
     <article
-      class="flex flex-col-reverse mt-10 w-11/12 mx-auto sm:flex-row-reverse sm:justify-evenly sm:gap-6"
+      class="flex flex-col-reverse mt-10 w-11/12 mx-auto md:flex-row-reverse md:justify-evenly md:gap-6 md:items-center"
     >
-      <p class="text-justify mt-5">
+      <p class="text-justify mt-5 dark:text-white">
         Fondé en 2018 au cœur de Marrakech, Top Sport est bien plus qu'un simple
         club de sport : c'est une véritable académie dédiée à l'excellence
         physique, mentale et aux valeurs des arts martiaux. Depuis sa création,
@@ -135,45 +149,61 @@
       <img
         src="assets/images/aPropos.jpg"
         alt=""
-        class="w-full mt-2 rounded-2xl sm:w-1/2"
+        class="h-full mt-2 rounded-2xl md:w-1/2"
       />
     </article>
     <footer
-      class="w-11/12 rounded-3xl h-96 sm:h-60 mt-14 mx-auto pt-3 pl-3 shadow-xl shadow-blue-600"
+      class="w-11/12 mb-4 rounded-3xl h-96 md:h-60 mt-14 mx-auto pt-3 pl-3 shadow-xl shadow-blue-600"
     >
       <div
-        class="flex flex-col items-center w-11/12 mx-auto gap-4 sm:flex-row sm:justify-between"
+        class="flex flex-col items-center w-11/12 mx-auto gap-4 md:flex-row md:justify-between"
       >
-        <div class="flex flex-col items-center sm:flex-row">
-          <img src="assets/images/logo.png" alt="" class="w-20 sm:mr-5" />
-          <h4>Académie de Karaté, Full Contact et Aerobic à Marrakech.</h4>
+        <div class="flex flex-col items-center md:flex-row">
+          <img src="assets/images/logo.png" alt="" class="w-20 md:mr-5" />
+          <h4 class="dark:text-white">
+            Académie de Karaté, Full Contact et Aerobic à Marrakech.
+          </h4>
         </div>
         <div
-          class="flex flex-col items-center w-full gap-4 mt-5 sm:flex-row sm:justify-evenly sm:w-1/3"
+          class="flex flex-col items-center w-full gap-4 mt-5 md:flex-row md:justify-evenly md:w-1/3"
         >
           <a href="" class="flex flex-col items-center gap-2"
             ><i class="fa-solid fa-house text-2xl text-blue-600"></i>
-            <h3 class="">Acceuil</h3></a
+            <h3 class="dark:text-white">Acceuil</h3></a
           >
 
           <a href="" class="flex flex-col items-center gap-2"
             ><i class="fa-solid fa-location-dot text-2xl text-blue-600"></i>
-            <h3 class="">Maroc, Marrakech, Afaq-1 138</h3></a
+            <h3 class="dark:text-white">Maroc, Marrakech, Afaq-1 138</h3></a
           >
         </div>
       </div>
-      <hr class="w-11/12 mx-auto text-blue-600 mt-2 sm:mt-8" />
+      <hr class="w-11/12 mx-auto text-blue-600 mt-2 md:mt-8" />
       <div
-        class="flex flex-col gap-8 mt-2 sm:flex-row sm:w-11/12 sm:mx-auto sm:justify-between sm:mt-15 sm:items-center"
+        class="flex flex-col gap-8 mt-2 md:flex-row md:w-11/12 md:mx-auto md:justify-between md:mt-15 md:items-center"
       >
         <div
-          class="w-1/3 mx-auto justify-between flex text-3xl text-blue-600 sm:mx-0 sm:text-4xl sm:w-1/5"
+          class="w-1/3 mx-auto justify-between flex text-3xl text-blue-600 md:mx-0 md:text-4xl md:w-1/5"
         >
-          <a href=""><i class="fa-brands fa-facebook"></i></a>
-          <a href=""><i class="fa-brands fa-instagram"></i></a>
-          <a href=""><i class="fa-brands fa-tiktok"></i></a>
+          <a href=""
+            ><i
+              class="fa-brands fa-facebook md:transform md:duration-500 md:hover:-translate-y-2 md:hover:scale-110"
+            ></i
+          ></a>
+          <a href=""
+            ><i
+              class="fa-brands fa-instagram md:transform md:duration-500 md:hover:-translate-y-2 md:hover:scale-110"
+            ></i
+          ></a>
+          <a href=""
+            ><i
+              class="fa-brands fa-tiktok md:transform md:duration-500 md:hover:-translate-y-2 md:hover:scale-110"
+            ></i
+          ></a>
         </div>
-        <div class="text-center">Copyright © 2026 | Top Sport.</div>
+        <div class="text-center dark:text-white">
+          Copyright © 2026 | Top Sport.
+        </div>
       </div>
     </footer>
   </body>
